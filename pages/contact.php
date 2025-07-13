@@ -1,10 +1,11 @@
+<?php include_once '../config.php'; ?>
 <section id="contact">
   <section class="bg-white py-20 px-4 md:px-10">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
       <!-- Left Side: Image with Animation -->
       <div class="animate-slide-left text-center md:text-left">
-        <img src="/civilcoresolutions/images/contact-us-1.png" alt="Talk to Our Expert"
+        <img src="<?php echo getAssetUrl('images/contact-us-1.png'); ?>" alt="Talk to Our Expert"
           class="w-full max-w-md mx-auto md:mx-0 rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 ease-in-out" />
       </div>
 

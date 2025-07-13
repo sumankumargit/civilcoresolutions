@@ -19,7 +19,7 @@
       <?php for ($i = 1; $i <= 25; $i++): ?>
         <div>
           <img 
-            src="/civilcoresolutions/images/3Dplan/<?php echo $i; ?>.webp" 
+            src="<?php echo getAssetUrl('images/3Dplan/' . $i . '.webp'); ?>" 
             alt="3D Plan <?php echo $i; ?>" 
             class="w-full h-auto rounded-lg border border-gray-300 cursor-pointer"
             onclick="openImage(this.src)"

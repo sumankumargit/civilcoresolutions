@@ -1,3 +1,4 @@
+<?php include_once '../config.php'; ?>
 <section class="bg-gray-50 py-20 px-4 md:px-12 relative overflow-hidden">
   <div class="max-w-7xl mx-auto text-center mb-12 animate-fade-in">
     <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">Why Harris constructions ?</h2>
@@ -13,7 +14,7 @@
       <!-- Card 1 -->
       <div class="bg-white rounded-xl shadow-lg p-5 border-t-4 border-blue-500 transition duration-300 hover:scale-105 hover:shadow-xl">
         <div class="bg-blue-100 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
-          <img src="/civilcoresolutions/images/whyimages/image.png" alt="Secure Payments" class="h-8 w-8">
+          <img src="<?php echo getAssetUrl('images/whyimages/image.png'); ?>" alt="Secure Payments" class="h-8 w-8">
         </div>
         <h3 class="text-lg font-semibold text-gray-800 text-center mb-2">Secure Payments</h3>
         <p class="text-sm text-gray-600 text-center">We follow transparent billing. No hidden charges.</p>
@@ -22,7 +23,7 @@
       <!-- Card 2 -->
       <div class="bg-white rounded-xl shadow-lg p-5 border-t-4 border-green-500 transition duration-300 hover:scale-105 hover:shadow-xl">
         <div class="bg-green-100 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
-          <img src="/civilcoresolutions/images/whyimages/image copy.png" alt="Engineering" class="h-8 w-8">
+          <img src="<?php echo getAssetUrl('images/whyimages/image copy.png'); ?>" alt="Engineering" class="h-8 w-8">
         </div>
         <h3 class="text-lg font-semibold text-gray-800 text-center mb-2">Engineering Excellence</h3>
         <p class="text-sm text-gray-600 text-center">Plans and execution by top-tier Civil experts.</p>
@@ -31,7 +32,7 @@
       <!-- Card 3 -->
       <div class="bg-white rounded-xl shadow-lg p-5 border-t-4 border-purple-500 transition duration-300 hover:scale-105 hover:shadow-xl">
         <div class="bg-purple-100 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
-          <img src="/civilcoresolutions/images/whyimages/image copy 2.png" alt="Clarity" class="h-8 w-8">
+          <img src="<?php echo getAssetUrl('images/whyimages/image copy 2.png'); ?>" alt="Clarity" class="h-8 w-8">
         </div>
         <h3 class="text-lg font-semibold text-gray-800 text-center mb-2">100% Clarity</h3>
         <p class="text-sm text-gray-600 text-center">Track every step — drawings, approvals, progress.</p>
@@ -40,7 +41,7 @@
       <!-- Card 4 -->
       <div class="bg-white rounded-xl shadow-lg p-5 border-t-4 border-red-500 transition duration-300 hover:scale-105 hover:shadow-xl">
         <div class="bg-red-100 rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
-          <img src="/civilcoresolutions/images/whyimages/image copy 3.png" alt="Delivery" class="h-8 w-8">
+          <img src="<?php echo getAssetUrl('images/whyimages/image copy 3.png'); ?>" alt="Delivery" class="h-8 w-8">
         </div>
         <h3 class="text-lg font-semibold text-gray-800 text-center mb-2">On-Time Delivery</h3>
         <p class="text-sm text-gray-600 text-center">We stick to deadlines. Always reliable & on time.</p>

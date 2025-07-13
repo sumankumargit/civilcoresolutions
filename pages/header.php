@@ -1,9 +1,10 @@
+<?php include_once '../config.php'; ?>
 <!-- ======= HERO SECTION ======= -->
 <header class="relative min-h-screen w-full overflow-hidden flex flex-col">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <video autoplay loop muted playsinline class="w-full h-full object-cover object-center">
-      <source src="./images/42926-434300944.mp4" type="video/mp4" />
+      <source src="<?php echo getAssetUrl('images/42926-434300944.mp4'); ?>" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div class="absolute inset-0 bg-black opacity-60"></div>
@@ -18,11 +19,11 @@
       Creating timeless spaces with modern design and unmatched craftsmanship.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 fade-in-up delay-2 w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto justify-center items-center">
-      <a href="/civilcoresolutions/index.php#services"
+      <a href="<?php echo getUrl('index.php#services'); ?>"
          class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-3 px-4 sm:px-6 rounded-full text-base sm:text-lg font-semibold transition transform hover:scale-105 hover:shadow-lg w-full sm:w-auto">
         View Projects
       </a>
-      <a href="/civilcoresolutions/index.php#contact"
+      <a href="<?php echo getUrl('index.php#contact'); ?>"
          class="border-2 border-white text-white hover:bg-white/10 py-3 px-4 sm:px-6 rounded-full text-base sm:text-lg font-semibold transition transform hover:scale-105 w-full sm:w-auto">
         Contact Us
       </a>

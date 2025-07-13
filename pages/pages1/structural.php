@@ -19,7 +19,7 @@
       <?php for ($i = 1; $i <= 14; $i++): ?>
         <div>
           <img 
-            src="/civilcoresolutions/images/structural/<?php echo $i; ?>.jpeg" 
+            src="<?php echo getAssetUrl('images/structural/' . $i . '.jpeg'); ?>" 
             alt="Structural Plan <?php echo $i; ?>" 
             class="w-full h-auto rounded-lg border border-gray-300 cursor-pointer"
             onclick="openImage(this.src)"

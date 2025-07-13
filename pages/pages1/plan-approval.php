@@ -26,7 +26,7 @@
       ?>
         <div class="bg-white border border-gray-300 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
           <img 
-            src="/civilcoresolutions/images/planapproval/<?php echo $i; ?>.jpg" 
+            src="<?php echo getAssetUrl('images/planapproval/' . $i . '.jpg'); ?>" 
             alt="<?php echo $titles[$i-1]; ?>" 
             class="w-full h-48 object-cover cursor-pointer"
             onclick="openImage(this.src)"

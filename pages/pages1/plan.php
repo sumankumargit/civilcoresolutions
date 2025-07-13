@@ -27,7 +27,7 @@
     <?php for ($i = 1; $i <= 15; $i++): ?>
       <div>
         <img 
-          src="../../images/2Dplan/<?php echo $i; ?>.jpg" 
+          src="<?php echo getAssetUrl('images/2Dplan/' . $i . '.jpg'); ?>" 
           alt="2D Plan <?php echo $i; ?>" 
           class="w-full h-auto rounded-lg border border-gray-300 cursor-pointer"
           onclick="openImage(this.src)"

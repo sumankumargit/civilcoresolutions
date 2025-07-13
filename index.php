@@ -1,10 +1,11 @@
+<?php include_once 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Harris constructions</title>
-  <link rel="icon" type="image/x-icon" href="/civilcoresolutions/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="<?php echo getAssetUrl('favicon.ico'); ?>">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; }

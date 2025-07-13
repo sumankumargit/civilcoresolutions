@@ -24,8 +24,8 @@
       
       <!-- Images Row -->
       <div class="grid md:grid-cols-2 gap-8 mb-12">
-        <img src="../../images/cctv/cctv01.png" alt="Live View 1" class="w-full rounded-lg shadow-md border border-gray-300" />
-        <img src="../../images/cctv/cctv02.png" alt="Live View 2" class="w-full rounded-lg shadow-md border border-gray-300" />
+        <img src="<?php echo getAssetUrl('images/cctv/cctv01.png'); ?>" alt="Live View 1" class="w-full rounded-lg shadow-md border border-gray-300" />
+        <img src="<?php echo getAssetUrl('images/cctv/cctv02.png'); ?>" alt="Live View 2" class="w-full rounded-lg shadow-md border border-gray-300" />
       </div>
 
       <!-- YouTube Embed -->
